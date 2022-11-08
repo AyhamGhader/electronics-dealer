@@ -1,0 +1,174 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/*start the nav bar*/
+
+nav {
+    position: fixed;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    height: 38px;
+    font-size: 20px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 15px 0px 28px;
+    
+}
+
+.LOGIN {    
+    margin-left: 650px;
+    
+}
+
+.LOGIN :hover{
+    background-color: #f77f00;
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.PRODUCTE {
+    background-color: #f77f00;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.PRODUCTE:hover {
+    background-color: #000000;
+    color: #f77f00;
+}
+
+nav ul li a:hover {
+    color: #f77f00;
+}
+
+/*end the nav bar*/
+
+/*start with main*/
+
+.imag1 {
+    width: 100%;
+    height: 650px;
+    background-image: url(../imag/cover.png);
+    background-size: cover;
+}
+
+/*start the offers*/
+
+div h1 {
+    margin: auto;
+    margin-top: 65px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 10px 8px #787975;
+    border-radius: 20px;
+    background-color: #dae2c1;
+}
+
+
+article section table {
+    width: 80%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 10px 5px #787975;
+    margin: 50px;
+}
+
+/*imah for offers*/
+
+.a1 {
+    text-decoration: none;
+    color: black;
+}
+
+.phimag1 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../imag/ph1.jpg);
+    background-size: cover;
+}
+
+.phimag2 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../imag/ph2.jpg);
+    background-size: cover;
+}
+
+.phimag3 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../imag/ph3.jpg);
+    background-size: cover;
+}
+
+article section table tr td h3{
+    margin: 0px 0px 0px 10%;
+}
+
+.p1 {
+        margin: 10% 0px 0px 10%;
+}
+
+.span1 {
+    color: rgb(43, 175, 43);
+    margin: 20px 0px 0px 85% ;
+    font-size: 22px;
+}
+
+/*start footer*/
+
+footer {
+    background-color: rgb(3, 10, 37);
+    
+}
+
+footer table {
+    width: 80%;
+    color: #f77f00;
+
+    
+}
+
+h2 {
+    margin: 10px 0px 30px 70px;
+} 
+
+footer table tr td p {
+    margin: 0px 0px 0px 70px;
+}
+
+footer table tr td p a {
+
+    color: #f77f00;
+}
+
+footer table tr td ul li {
+    margin: 0px 0px 0px 90px;
+
+}
+.Copyrights {
+    
+    
+    background-color: rgb(5, 18, 68);
+    color: #f77f00;
+    padding: 10px;
+}
+
+.Copyrights1 {
+    margin-left: 80%;
+}

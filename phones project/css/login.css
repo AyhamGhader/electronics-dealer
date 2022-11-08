@@ -1,0 +1,97 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+body {
+    background-image: url(../imag/cover2.png);
+    background-size: cover;
+}
+
+/*start nav */
+nav {
+    padding: 10px;
+    display: flex;
+    height: 38px;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 15px 0px 28px;
+    
+}
+
+.LOGIN {    
+    margin-left: 950px;
+    
+}
+
+.LOGIN :hover{
+    background-color: #f77f00;
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.PRODUCTE {
+    background-color: #f77f00;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.PRODUCTE:hover {
+    background-color: #000000;
+    color: #f77f00;
+}
+
+nav ul li a:hover {
+    color: #f77f00;
+}
+/*end nav*/
+/*start main*/
+
+article {
+    margin: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+ table {
+    margin: auto;
+    width: 50%;
+    padding: 25px;
+    box-shadow: 0px 0px 10px;
+    color: #000;
+    background-color: #ffffff;
+
+ }
+
+input {
+    width:100%;
+    padding: 2px;
+    border: none;
+    border-bottom: 2px solid #f77f00;
+}
+
+td {
+    padding: 5px;
+}
+
+button {
+    margin-top: 45px;
+    margin-left: 30px;
+    padding:10px 20px 10px 20px;
+    background-color: #f77f00;
+    border: none;
+    border-radius:20px ;
+}
+/*end main*/
